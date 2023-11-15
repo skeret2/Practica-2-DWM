@@ -20,8 +20,6 @@ return new class extends Migration
             $table->string('city');
             $table->string('country');
             $table->string('sumary');
-            $table->foreignId('hobby_id')->constrained('hobbies');
-            $table->foreignId('framework_id')->constrained('frameworks');
         });
     }
 

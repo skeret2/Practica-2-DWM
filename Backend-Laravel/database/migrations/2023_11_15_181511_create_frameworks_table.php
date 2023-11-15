@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name_framework');
             $table->string('level');
             $table->string('year');
+            $table->foreignId('profile_id')->constrained();
         });
     }
 

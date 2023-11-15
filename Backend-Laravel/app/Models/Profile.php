@@ -19,4 +19,15 @@ class Profile extends Model
         'hobby_id',
         'framework_id',
     ];
+    
+    #funcion para obtener los hobbies y frameworks de un perfil
+    public function hobbies()
+    {
+        return $this->hasMany(Hobby::class);
+    }
+
+    public function frameworks()
+    {
+        return $this->hasMany(Framework::class);
+    }
 }

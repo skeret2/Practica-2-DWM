@@ -16,6 +16,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string('name_hobby');
             $table->string('despription');
+            $table->foreignId('profile_id')->constrained();
         });
     }
 

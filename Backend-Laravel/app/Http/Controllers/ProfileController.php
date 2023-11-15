@@ -11,7 +11,7 @@ class ProfileController extends Controller
 {
     public function getProfile()
     {
-        $profile = Profile::all();
-        return response()->json($profile);
+        $profiles = Profile::with('hobbies', 'frameworks')->get();
+        return response()->json($profiles);
     }
 }

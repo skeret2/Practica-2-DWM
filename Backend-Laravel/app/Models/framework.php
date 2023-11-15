@@ -13,4 +13,9 @@ class framework extends Model
         'level',
         'year',
     ];
+
+    public function profile()
+    {
+        return $this->belongsTo(Profile::class);
+    }
 }

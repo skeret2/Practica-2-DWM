@@ -13,4 +13,9 @@ class hobby extends Model
         'name_hobby',
         'description',
     ];
+
+    public function profile()
+    {
+        return $this->belongsTo(Profile::class);
+    }
 }
