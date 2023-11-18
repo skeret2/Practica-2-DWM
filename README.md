@@ -1,7 +1,9 @@
 # Configuración del Entorno de Desarrollo para Laravel y React
 
-Practica 2 asignatura Introduccón web/movil
+Practica 2 asignatura Introduccón web/movil.
 Este repositorio contiene un proyecto desarrollado con Laravel para el backend y React en el frontend. Sigue los pasos a continuación para configurar el entorno de desarrollo en tu computadora.
+
+Obs: Existe un carpeta frontend-Vue pero esta no fue implementada ya que decidi aprender React.
 
 ## Entorno de ejecución
     Debe tener instalado Node.js
